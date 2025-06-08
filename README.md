@@ -1,35 +1,77 @@
 # 🔗 [radyotara.com](https://radyotara.com/) 
 
-### 🎯 Proje Amacı ve Hikayesi
-
-Radyotara.com, Türkiye'deki radyo frekanslarına şehir ve ilçe bazlı olarak kolayca ulaşılabilmesini sağlamak amacıyla geliştirildi. Projenin çıkış noktası ise askerlik dönemimde yaşadığım basit ama tam çözülememiş bir sorun oldu. Görev yaptığım şehirde radyo dinlemek istediğimde, “Bu bölgede hangi radyo hangi frekansta yayın yapıyor?” sorusuna net bir cevap bulmak oldukça zordu.
-
-Görev sürem tamamlandıktan sonra bu problemi başkalarının da yaşamaması için kalıcı bir çözüme kavuşturmak istedim. Yaptığım araştırmalar sonucunda mevcut kaynakların çoğunun ya kullanıcıya pratik bilgi sunamadığını, ya ulaşım açısından yetersiz kaldığını ya da güncel olmadığını fark ettim.
-
-Bu nedenle herkesin kolayca kullanabileceği, sade, hızlı ve mobil uyumlu bir sistem oluşturma fikriyle yola çıktım. İşte Radyotara.com’un kısa serüveni bu şekilde. 🙂
+> **🚀 Kararlı Sürüm – Düzenli olarak güncellenmekte ve geliştirilmektedir.**
 
 ---
 
-### ⚙️ Teknik Detaylar
+## 🎯 Proje Amacı ve Hikayesi
 
-- Proje **Angular 19** ile geliştirilmiştir. **Static Site Generation (SSG)** yapısı kullanılmıştır.  
-  Sayfalar önceden oluşturulduğu için site hızlı açılır ve SEO açısından yüksek performans sağlar.  
-  Şu anda yaklaşık **1.600 sayfa**, arama motorları tarafından indekslenmiştir.
+**Radyotara.com**, Türkiye'nin her bölgesinde kullanıcıların radyo frekanslarına kolayca erişmesini sağlayan hızlı, sade ve kullanıcı dostu bir platformdur.
 
-- Veri seti, özel olarak hazırlanan bir script aracılığıyla oluşturulmuştur.  
-  Tüm radyo kanalları, şehirler ve frekanslar önce **ilişkisel JSON yapısı**yla ayrı ayrı kaydedilmiştir.
+Projenin çıkış noktası, askerlik görevimi yerine getirirken karşılaştığım basit fakat çözümü zor bir soruydu:
 
-- Bu ana kaynaklar kullanılarak, **her şehir, ilçe ve radyo sayfası** için özelleştirilmiş JSON dosyaları üretilmiştir.  
-  Build sürecinde bu dosyalar kullanılarak statik sayfalar oluşturulmuştur.
+> *"Bulunduğum bölgede hangi radyo hangi frekansta yayın yapıyor?"*
+
+Bu sorunun cevabını pratik ve hızlı bir şekilde bulmak, beklediğimden daha zor oldu. Araştırmalarım sonucunda mevcut kaynakların genellikle güncel olmadığını veya kullanıcı dostu olmadığını fark ettim.
+
+Görev sürecimin bitmesiyle birlikte bu problemi herkes için kalıcı olarak çözmeye karar verdim. Böylece herkesin kolayca kullanabileceği, sade, hızlı, mobil uyumlu ve SEO dostu bir platform olan **Radyotara.com** ortaya çıktı.
+
+Bugün **Radyotara.com**, Angular 19 ve Static Site Generation (SSG) altyapısıyla **1.600'den fazla statik sayfa** sunmakta ve her gün yüzlerce kullanıcıya doğru radyo frekansına hızlıca ulaşma imkânı sağlamaktadır. 🎯
 
 ---
 
-### 📸 Ekran Görüntüleri
-<p align="center"> <img src="https://github.com/user-attachments/assets/5018d7d1-fa01-4f5c-9caa-271742f01a76" alt="radyotara.com – Ana Sayfa" /> <br /> <em>(Ana Sayfa)</em> </p>
+## 🚩 Geliştirme Süreci ve Özellikler
 
-<p align="center"> <img src="https://github.com/user-attachments/assets/63ea00e6-e59f-4950-91d0-97297061013a" alt="radyotara.com – Şehir Sayfası" /> <br /> <em>(Şehir Sayfası)</em> </p>
+Proje titiz ve özenli bir geliştirme sürecinden geçmiştir:
 
-<p align="center"> <img src="https://github.com/user-attachments/assets/665d26c4-78a2-484c-a502-a9f0f7c5d2a2" alt="radyotara.com – Radyo Sayfası" /> <br /> <em>(Radyo Sayfası)</em> </p>
+* **Static Site Generation (SSG)** ile SEO optimizasyonu ve yüksek performans sağlanmıştır.
+* Radyo frekans verileri, özel olarak hazırlanan scraping scripti ile elde edilmiştir.
+* Elde edilen veriler **ilişkisel JSON yapıları** halinde dizayn edilerek tüm il ve ilçeler için ayrı ayrı sayfa verileri oluşturulmuştur.
+* İlk sürüm Firebase Hosting ile yayına alınmış olup, şu an Vercel üzerinde yayındadır.
 
-<p align="center"> <img src="https://github.com/user-attachments/assets/b72187db-03a8-4f2d-981f-b43377eba872" alt="radyotara.com – Radyo Sayfası" /> <br /> <em>(Aşkın Frekansı Sayfası)</em> </p>
+---
 
+## ⚙️ Kullanılan Ana Teknolojiler
+
+* **Frontend:** Angular 19 (Static Site Generation - SSG), Tailwind CSS
+* **Barındırma & Dağıtım:** Vercel (Öncesinde Firebase Hosting)
+* **Veri Yönetimi:** Node.js, ilişkisel JSON veri yapıları
+
+---
+
+## 🌐 Canlı Bağlantılar
+
+| Sayfa          | Bağlantı                                                                      |
+| -------------- | ----------------------------------------------------------------------------- |
+| Ana Sayfa      | [https://radyotara.com](https://radyotara.com/)                               |
+| Blog           | [https://radyotara.com/blog](https://radyotara.com/blog/)                     |
+| Aşkın Frekansı | [https://radyotara.com/askin-frekansi](https://radyotara.com/askin-frekansi/) |
+
+---
+
+## 📸 Ekran Görüntüleri
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5018d7d1-fa01-4f5c-9caa-271742f01a76" alt="Ana Sayfa" />
+  <br /><em>Ana Sayfa</em>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/63ea00e6-e59f-4950-91d0-97297061013a" alt="Şehir Sayfası" />
+  <br /><em>Şehir Sayfası</em>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/665d26c4-78a2-484c-a502-a9f0f7c5d2a2" alt="Radyo Sayfası" />
+  <br /><em>Radyo Sayfası</em>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b69b565a-cff0-448c-950c-5d52e1ba21ad" alt="Blog Sayfası" />
+  <br /><em>Blog Sayfası</em>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b72187db-03a8-4f2d-981f-b43377eba872" alt="Aşkın Frekansı Sayfası" />
+  <br /><em>Aşkın Frekansı Özel Sayfası</em>
+</p>
