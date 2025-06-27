@@ -27,14 +27,14 @@ Proje titiz ve özenli bir geliştirme sürecinden geçmiştir:
 * **Static Site Generation (SSG)** ile SEO optimizasyonu ve yüksek performans sağlanmıştır.
 * Radyo frekans verileri, özel olarak hazırlanan scraping scripti ile elde edilmiştir.
 * Elde edilen veriler **ilişkisel JSON yapıları** halinde dizayn edilerek tüm il ve ilçeler için ayrı ayrı sayfa verileri oluşturulmuştur.
-* İlk sürüm Firebase Hosting ile yayına alınmış olup, şu an Vercel üzerinde yayındadır.
+* İlk sürüm Firebase Hosting ile yayına alınmış, ardından Vercel kullanılmıştır. Şu anda Netlify üzerinde yayın yapmaktadır.
 
 ---
 
 ## ⚙️ Kullanılan Ana Teknolojiler
 
 * **Frontend:** Angular 19 (Static Site Generation - SSG), Tailwind CSS
-* **Barındırma & Dağıtım:** Vercel (Öncesinde Firebase Hosting)
+* **Barındırma & Dağıtım:** Netlify (Öncesinde Vercel ve Firebase Hosting)
 * **Veri Yönetimi:** Node.js, ilişkisel JSON veri yapıları
 
 ---
