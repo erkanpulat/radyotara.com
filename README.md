@@ -1,22 +1,22 @@
 # 🔗 [radyotara.com](https://radyotara.com/) 
 
-> **🚀 Kararlı Sürüm – Düzenli olarak güncellenmekte ve geliştirilmektedir.**
+> **🚀 Kararlı Sürüm – Aktif olarak geliştirilen, çok dilli web platformu.**
 
 ---
 
 ## 🎯 Proje Amacı ve Hikayesi
 
-**Radyotara.com**, Türkiye'nin her bölgesinde kullanıcıların radyo frekanslarına kolayca erişmesini sağlayan hızlı, sade ve kullanıcı dostu bir platformdur.
+**Radyotara.com**, Türkiye'nin her bölgesinde ve seçili diğer ülkelerdeki kullanıcıların, bulundukları konumdaki radyo frekanslarına kolayca erişmesini sağlayan; çok dilli, sade, hızlı ve kullanıcı dostu bir web platformudur.
 
 Projenin çıkış noktası, askerlik görevimi yerine getirirken karşılaştığım basit fakat çözümü zor bir soruydu:
 
 > *"Bulunduğum bölgede hangi radyo hangi frekansta yayın yapıyor?"*
 
-Bu sorunun cevabını pratik ve hızlı bir şekilde bulmak, beklediğimden daha zor oldu. Araştırmalarım sonucunda mevcut kaynakların genellikle güncel olmadığını veya kullanıcı dostu olmadığını fark ettim.
+Bu sorunun cevabını pratik ve hızlı bir şekilde bulmak, beklediğimden zor oldu. Araştırmalarım sonucunda mevcut kaynakların genellikle güncel olmadığını veya kullanıcı dostu olmadığını fark ettim.
 
 Görev sürecimin bitmesiyle birlikte bu problemi herkes için kalıcı olarak çözmeye karar verdim. Böylece herkesin kolayca kullanabileceği, sade, hızlı, mobil uyumlu ve SEO dostu bir platform olan **Radyotara.com** ortaya çıktı.
 
-Bugün **Radyotara.com**, Angular 19 ve Static Site Generation (SSG) altyapısıyla **1.600'den fazla statik sayfa** sunmakta ve her gün yüzlerce kullanıcıya doğru radyo frekansına hızlıca ulaşma imkânı sağlamaktadır. 🎯
+Bugün **Radyotara.com**, Angular 19 ve Static Site Generation (SSG) mimarisiyle çalışan; birden fazla ülkeye hizmet veren ve **3.500’ün üzerinde statik sayfadan** oluşan bir sistem üzerinde, her gün yüzlerce kullanıcıya doğru radyo frekanslarına hızlıca ulaşma imkânı sağlamaktadır. 🎯
 
 ---
 
@@ -24,40 +24,41 @@ Bugün **Radyotara.com**, Angular 19 ve Static Site Generation (SSG) altyapısı
 
 Proje titiz ve özenli bir geliştirme sürecinden geçmiştir:
 
+* Radyo frekans verileri, özel olarak hazırlanan scraping scripti aracılığıyla güvenilir kaynaklardan toplanmıştır.
+* Elde edilen veriler **ilişkisel JSON yapıları** halinde modellenmiş ve her sayfa bu verilere göre otomatik olarak üretilmiştir.
 * **Static Site Generation (SSG)** ile SEO optimizasyonu ve yüksek performans sağlanmıştır.
-* Radyo frekans verileri, özel olarak hazırlanan scraping scripti ile elde edilmiştir.
-* Elde edilen veriler **ilişkisel JSON yapıları** halinde dizayn edilerek tüm il ve ilçeler için ayrı ayrı sayfa verileri oluşturulmuştur.
-* İlk sürüm Firebase Hosting ile yayına alınmış, ardından Vercel kullanılmıştır. Şu anda Netlify üzerinde yayın yapmaktadır.
+* Projenin ilk sürümü Firebase Hosting üzerinde yayına alınmış, daha sonra sırasıyla Vercel ve Netlify altyapılarına taşınmıştır. Şu anda Netlify üzerinde yayın yapmaktadır.
 
 ---
 
 ## ⚙️ Kullanılan Ana Teknolojiler
 
 * **Frontend:** Angular 19 (Static Site Generation - SSG), Tailwind CSS
-* **Barındırma & Dağıtım:** Netlify (Öncesinde Vercel ve Firebase Hosting)
+* **Barındırma & Dağıtım:** Netlify *(Önceki sürümler: Vercel, Firebase Hosting)*
 * **Veri Yönetimi:** Node.js, ilişkisel JSON veri yapıları
 
 ---
 
 ## 🌐 Canlı Bağlantılar
 
-| Sayfa          | Bağlantı                                                                      |
-| -------------- | ----------------------------------------------------------------------------- |
-| Ana Sayfa      | [https://radyotara.com](https://radyotara.com/)                               |
-| Blog           | [https://radyotara.com/blog](https://radyotara.com/blog/)                     |
-| Aşkın Frekansı | [https://radyotara.com/askin-frekansi](https://radyotara.com/askin-frekansi/) |
+| Sayfa             | Bağlantı                                                                      |
+| ----------------- | ----------------------------------------------------------------------------- |
+| Ana Sayfa         | [https://radyotara.com](https://radyotara.com/)                               |
+| Blog              | [https://radyotara.com/blog](https://radyotara.com/blog/)                     |
+| Aşkın Frekansı    | [https://radyotara.com/askin-frekansi](https://radyotara.com/askin-frekansi/) |
+| Almanca Ana Sayfa | [https://radyotara.com/de](https://radyotara.com/de/)                         |
 
 ---
 
 ## 📸 Ekran Görüntüleri
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/5018d7d1-fa01-4f5c-9caa-271742f01a76" alt="Ana Sayfa" />
+  <img src="https://github.com/user-attachments/assets/51afa3e4-d5c3-4d6d-bb49-2134b15ad0bf" alt="Ana Sayfa" />
   <br /><em>Ana Sayfa</em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/63ea00e6-e59f-4950-91d0-97297061013a" alt="Şehir Sayfası" />
+  <img src="https://github.com/user-attachments/assets/910f8077-0b5d-4995-902f-f2ff0b99a3c4" alt="Şehir Sayfası" />
   <br /><em>Şehir Sayfası</em>
 </p>
 
